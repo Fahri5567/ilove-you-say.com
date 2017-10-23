@@ -1,80 +1,3 @@
-.logo_div {
-    display: none !important;
-    visibility: hidden;
-}
-
-.uppermenu {
-    display: none !important;
-    visibility: hidden;
-}
-
-.fpix_header {
-    display: none !important;
-    visibility: hidden;
-}
-
-.fpix_header td {
-    display: none !important;
-    visibility: hidden;
-}
-
-.fpix_header.topad {
-    display: none !important;
-    visibility: hidden;
-}
-
-#show_chat_btn {
-    display: none !important;
-    visibility: hidden;
-}
-
-.profile_text {
-    display: none !important;
-    visibility: hidden;
-}
-
-#flash_close_butt {
-    display: none !important;
-    visibility: hidden;
-}
-
-#left_container {
-    display: none !important;
-    visibility: hidden;
-}
-
-#asltable {
-    display: none !important;
-    visibility: hidden;
-}
-
-#asltable td {
-    display: none !important;
-    visibility: hidden;
-}
-
-#asltable.fpix_asl_table {
-    display: none !important;
-    visibility: hidden;
-}
-
-#buyers_ad {
-    display: none !important;
-    visibility: hidden;
-}
-
-.bottombar {
-    display: none !important;
-    visibility: hidden;
-}
-
-#box {
-    font-family: Comic Sans;
-    font-size: 15px;
-    color: #FFFFFF;
-}
-
-
 @font-face {
     font-family: 'BebasNeueRegular';
     src: url('../fonts/BebasNeue-webfont.eot');
@@ -85,7 +8,6 @@
     font-weight: normal;
     font-style: normal;
 }
-
 
 /* CSS reset */
 
@@ -120,6 +42,10 @@ html,
 body {
     margin: 0;
     padding: 0;
+    /*-webkit-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    -webkit-touch-callout:none;*/
 }
 
 table {
@@ -180,6 +106,10 @@ acronym {
     border: 0;
 }
 
+a {
+    color: #ff64e4;
+}
+
 #credit {
     position: fixed;
     right: 0;
@@ -205,39 +135,12 @@ acronym {
     border-top: 1px solid #9932CC;
 }
 
-.credittext {
+.credit_text {
     text-align: center;
     font-family: 'Indie Flower', cursive;
     font-size: 25px;
     color: #ffffff;
     line-height: 320px;
-}
-
-.container3 {
-    position: fixed;
-    top: 25%;
-    left: 5%;
-    width: 650px;
-    height: 300px;
-}
-
-.container1 {
-    position: fixed;
-    right: 2%;
-    top: 4%;
-    width: 300px;
-    height: 180px;
-    margin: auto;
-    margin-bottom: 25px;
-    max-width: 1000px;
-}
-
-.container2 {
-    position: fixed;
-    bottom: 1%;
-    left: 2%;
-    width: 100px;
-    height: 100px;
 }
 
 .cb-slideshow,
@@ -252,7 +155,7 @@ acronym {
 
 .cb-slideshow:after {
     content: '';
-    background: transparent url(https://tympanus.net/Tutorials/CSS3FullscreenSlideshow/images/pattern.png) repeat top left;
+    background: transparent url('../images/pattern.png') repeat top left;
 }
 
 .cb-slideshow li span {
@@ -299,11 +202,11 @@ acronym {
 }
 
 .cb-slideshow li:nth-child(1) span {
-    background-image: url(https://s21.postimg.org/eogv51ihj/image.jpg)
+    background-image: url('../images/slide_1.jpg')
 }
 
 .cb-slideshow li:nth-child(2) span {
-    background-image: url(https://s27.postimg.org/s8r3xjpqb/image.jpg);
+    background-image: url(../images/slide_2.jpg);
     -webkit-animation-delay: 9s;
     -moz-animation-delay: 9s;
     -o-animation-delay: 9s;
@@ -312,7 +215,7 @@ acronym {
 }
 
 .cb-slideshow li:nth-child(3) span {
-    background-image: url(https://s7.postimg.org/8lutahrpn/image.jpg);
+    background-image: url(../images/slide_3.jpg);
     -webkit-animation-delay: 18s;
     -moz-animation-delay: 18s;
     -o-animation-delay: 18s;
@@ -321,7 +224,7 @@ acronym {
 }
 
 .cb-slideshow li:nth-child(4) span {
-    background-image: url(https://s16.postimg.org/no0uby2bp/image.jpg);
+    background-image: url(../images/slide_4.jpg);
     -webkit-animation-delay: 27s;
     -moz-animation-delay: 27s;
     -o-animation-delay: 27s;
@@ -330,7 +233,7 @@ acronym {
 }
 
 .cb-slideshow li:nth-child(5) span {
-    background-image: url(https://s28.postimg.org/r22oc5u99/image.jpg);
+    background-image: url(../images/slide_5.jpg);
     -webkit-animation-delay: 36s;
     -moz-animation-delay: 36s;
     -o-animation-delay: 36s;
@@ -339,7 +242,7 @@ acronym {
 }
 
 .cb-slideshow li:nth-child(6) span {
-    background-image: url(https://s29.postimg.org/663xinq87/image.jpg);
+    background-image: url(../images/slide_6.jpg);
     -webkit-animation-delay: 45s;
     -moz-animation-delay: 45s;
     -o-animation-delay: 45s;
@@ -348,7 +251,7 @@ acronym {
 }
 
 .cb-slideshow li:nth-child(7) span {
-    background-image: url(https://s23.postimg.org/xzltv2gej/image.jpg);
+    background-image: url(../images/slide_7.jpg);
     -webkit-animation-delay: 54s;
     -moz-animation-delay: 54s;
     -o-animation-delay: 54s;
@@ -357,7 +260,7 @@ acronym {
 }
 
 .cb-slideshow li:nth-child(8) span {
-    background-image: url(https://s21.postimg.org/6gjsv3iyf/image.jpg);
+    background-image: url(../images/slide_8.jpg);
     -webkit-animation-delay: 63s;
     -moz-animation-delay: 63s;
     -o-animation-delay: 63s;
@@ -366,7 +269,7 @@ acronym {
 }
 
 .cb-slideshow li:nth-child(9) span {
-    background-image: url(https://s12.postimg.org/geg51mmil/image.jpg);
+    background-image: url(../images/slide_9.jpg);
     -webkit-animation-delay: 72s;
     -moz-animation-delay: 72s;
     -o-animation-delay: 72s;
@@ -375,7 +278,7 @@ acronym {
 }
 
 .cb-slideshow li:nth-child(10) span {
-    background-image: url(https://s3.postimg.org/j38hb7uw3/image.jpg);
+    background-image: url(../images/slide_10.jpg);
     -webkit-animation-delay: 81s;
     -moz-animation-delay: 81s;
     -o-animation-delay: 81s;
@@ -384,7 +287,7 @@ acronym {
 }
 
 .cb-slideshow li:nth-child(11) span {
-    background-image: url(https://s16.postimg.org/ed0lys7cl/image.jpg);
+    background-image: url(../images/slide_11.jpg);
     -webkit-animation-delay: 90s;
     -moz-animation-delay: 90s;
     -o-animation-delay: 90s;
@@ -393,7 +296,7 @@ acronym {
 }
 
 .cb-slideshow li:nth-child(12) span {
-    background-image: url(https://s23.postimg.org/wmovqhnsr/image.jpg);
+    background-image: url(../images/slide_12.jpg);
     -webkit-animation-delay: 99s;
     -moz-animation-delay: 99s;
     -o-animation-delay: 99s;
@@ -402,7 +305,7 @@ acronym {
 }
 
 .cb-slideshow li:nth-child(13) span {
-    background-image: url(https://s28.postimg.org/ki5kwptf1/image.jpg);
+    background-image: url(../images/slide_13.jpg);
     -webkit-animation-delay: 108s;
     -moz-animation-delay: 108s;
     -o-animation-delay: 108s;
@@ -411,7 +314,7 @@ acronym {
 }
 
 .cb-slideshow li:nth-child(14) span {
-    background-image: url(https://s9.postimg.org/4kb7i0clr/image.jpg);
+    background-image: url(../images/slide_14.jpg);
     -webkit-animation-delay: 117s;
     -moz-animation-delay: 117s;
     -o-animation-delay: 117s;
@@ -420,7 +323,7 @@ acronym {
 }
 
 .cb-slideshow li:nth-child(15) span {
-    background-image: url(https://s18.postimg.org/qgiirsod5/image.jpg);
+    background-image: url(../images/slide_15.jpg);
     -webkit-animation-delay: 126s;
     -moz-animation-delay: 126s;
     -o-animation-delay: 126s;
@@ -823,10 +726,9 @@ acronym {
     text-align: center;
     background-color: rgb(106, 35, 188);
     border-radius: 5px;
-}
-
-.box a {
-    color: #ff64e4;
+    font-family: Comic Sans;
+    font-size: 15px;
+    color: #FFFFFF;
 }
 
 .layer1 {
